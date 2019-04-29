@@ -1,21 +1,16 @@
-describe("", function() {
-  it("Un archivo del 2012 no es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"01/01/2012"}
-    assert(!esDelMilenioPasado(archivo));
-  })
+
+  def test_Un_archivo_del_2012_no_es_del_milenio_pasado(self):
+    archivo = {"ruta":"", "creacion":"01/01/2012"}
+    self.assertFalse(esDelMilenioPasado(archivo))
   
-  it("Un archivo de 2000 no es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"01/01/2000"}
-    assert(!esDelMilenioPasado(archivo));
-  })
+  def test_Un_archivo_de_2000_no_es_del_milenio_pasado(self):
+    archivo = {"ruta":"", "creacion":"01/01/2000"}
+    self.assertFalse(esDelMilenioPasado(archivo))
   
-  it("Un archivo de 1999 es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"23/09/1994"}
-    assert(esDelMilenioPasado(archivo));
-  })
+  def test_Un_archivo_de_1999_es_del_milenio_pasado(self):
+    archivo = {"ruta":"", "creacion":"23/09/1994"}
+    self.assertTrue(esDelMilenioPasado(archivo))
   
-  it("Un archivo de 1994 es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"23/09/1994"}
-    assert(esDelMilenioPasado(archivo));
-  })
-})
+  def test_Un_archivo_de_1994_es_del_milenio_pasado(self):
+    archivo = {"ruta":"", "creacion":"23/09/1994"}
+    self.assertTrue(esDelMilenioPasado(archivo))

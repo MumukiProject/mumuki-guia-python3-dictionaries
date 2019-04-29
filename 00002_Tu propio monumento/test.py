@@ -1,35 +1,18 @@
-describe("", function() {
-  it("torreAzadi se llama Torre Azadi", function() {
-    assert.equal(torreAzadi.nombre.toLowerCase(), "torre azadi");
-  })
-})
 
-describe("", function() {
-  it("torreAzadi es de Teherán, Irán", function() {
-    assert.equal(torreAzadi.locacion, "Teherán, Irán");
-  })
-})
+  def test_torreAzadi_se_llama_Torre_Azadi(self):
+    self.assertEqual(torreAzadi["nombre"].lower(), "torre azadi")
 
-describe("", function() {
-  it("torreAzadi tiene su año de construcción", function() {
-    assert.equal(torreAzadi.anioDeConstruccion, 1971);
-  })
-})
+  def test_torreAzadi_es_de_Teherán_Irán(self):
+    self.assertEqual(torreAzadi["locacion"], "Teherán, Irán")
 
-describe("", function() {
-  it("monumentoNacionalALaBandera se llama Monumento Nacional a la Bandera", function() {
-    assert.equal(monumentoNacionalALaBandera.nombre.toLowerCase(), "monumento nacional a la bandera");
-  })
-})
+  def test_torreAzadi_tiene_su_año_de_construcción(self):
+    self.assertEqual(torreAzadi["anioDeConstruccion"], 1971)
 
-describe("", function() {
-  it("monumentoNacionalALaBandera es de Rosario, Argentina", function() {
-    assert.equal(monumentoNacionalALaBandera.locacion, "Rosario, Argentina");
-  })
-})
+  def test_monumentoNacionalALaBandera_se_llama_Monumento_Nacional_a_la_Bandera(self):
+    self.assertEqual(monumentoNacionalALaBandera["nombre"].lower(), "monumento nacional a la bandera")
 
-describe("", function() {
-  it("monumentoNacionalALaBandera tiene su año de construcción", function() {
-    assert.equal(monumentoNacionalALaBandera.anioDeConstruccion, 1957);
-  })
-})
+  def test_monumentoNacionalALaBandera_es_de_Rosario_Argentina(self):
+    self.assertEqual(monumentoNacionalALaBandera["locacion"], "Rosario, Argentina")
+
+  def test_monumentoNacionalALaBandera_tiene_su_año_de_construcción(self):
+    self.assertEqual(monumentoNacionalALaBandera["anioDeConstruccion"], 1957)
