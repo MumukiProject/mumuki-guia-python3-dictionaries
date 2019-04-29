@@ -1,3 +1,2 @@
-function anio(año) {
-  return parseInt(año.slice(-4));
-}
+def anio(anio):
+  return int(anio[-4:])
