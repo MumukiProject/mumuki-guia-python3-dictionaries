@@ -2,7 +2,7 @@ Una historiadora está recopilando información acerca de distintos monumentos a
 
 Para eso almacenó cada dato en una variable:
 
-```javascript
+```python
 nombreEstatuaDeLaLibertad = "Estatua de la Libertad";
 locacionEstatuaDeLaLibertad = "Nueva York";
 anioDeConstruccionEstatuaDeLaLibertad = "1886";
@@ -15,7 +15,7 @@ Ahí es cuando se dio cuenta que no era conveniente :unamused:: si bien la infor
 
 > Luego de investigar un poco, encontró una mejor manera para guardar la información de los monumentos. Probá en la consola escribiendo:
 
-> ```javascript
+> ```python
 estatuaDeLaLibertad
 cristoRedentor
 torreEiffel

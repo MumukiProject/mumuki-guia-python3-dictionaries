@@ -2,6 +2,6 @@ Quizá te sea útil ver cómo declaramos algún monumento en el ejercicio anteri
 
 Por ejemplo, esta es la Torre Eiffel:
 
-```javascript
+```python
 torreEiffel = { nombre: "Torre Eiffel", locacion: "París, Francia", anioDeConstruccion: 1889 };
 ```

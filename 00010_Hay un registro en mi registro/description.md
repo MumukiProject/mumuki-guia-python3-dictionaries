@@ -4,7 +4,7 @@
 
 Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una ensalada de lechuga, tomate y zanahoria como acompañamiento y un cheesecake de postre. Como el registro es un poco extenso, y para que sea más legible, lo vamos a escribir de la siguiente forma:
 
-```javascript
+```python
 menuDelDia = {
   platoPrincipal: "bife de lomo",
   ensalada: ["papa", "zanahoria", "arvejas"]
@@ -14,6 +14,6 @@ menuDelDia = {
 
 > Averiguá qué devuelve el campo `ingredientes` del campo `postre` del registro `menuInfantil`. ¡Está un registro adentro del otro! La sintaxis es la siguiente:
 
-> ```javascript
+> ```python
 menuInfantil.postre.ingredientes
 ```
