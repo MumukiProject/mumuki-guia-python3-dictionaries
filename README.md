@@ -7,5 +7,5 @@ Copyright Felipe Calvo and contributors
 
 This content consists of voluntary contributions made by many
 individuals. For exact contribution history, see its revision history
-available at https://github.com/mumukiproject/mumuki-guia-javascript-registros and the AUTHORS.txt file.
+available at https://github.com/mumukiproject/mumuki-guia-python-registros and the AUTHORS.txt file.
 
