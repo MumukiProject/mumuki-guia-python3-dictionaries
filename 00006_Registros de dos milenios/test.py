@@ -1,21 +1,21 @@
 describe("", function() {
   it("Un archivo del 2012 no es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"01/01/2012"};
+    archivo = {ruta:"", creacion:"01/01/2012"}
     assert(!esDelMilenioPasado(archivo));
   })
   
   it("Un archivo de 2000 no es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"01/01/2000"};
+    archivo = {ruta:"", creacion:"01/01/2000"}
     assert(!esDelMilenioPasado(archivo));
   })
   
   it("Un archivo de 1999 es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"23/09/1994"};
+    archivo = {ruta:"", creacion:"23/09/1994"}
     assert(esDelMilenioPasado(archivo));
   })
   
   it("Un archivo de 1994 es del milenio pasado", function() {
-    archivo = {ruta:"", creacion:"23/09/1994"};
+    archivo = {ruta:"", creacion:"23/09/1994"}
     assert(esDelMilenioPasado(archivo));
   })
 })

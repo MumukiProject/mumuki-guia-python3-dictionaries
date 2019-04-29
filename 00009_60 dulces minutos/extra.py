@@ -1,1 +1,1 @@
-postresRapidos = [ { "ingredientes": ["galletitas", "dulceDeLeche", "crema"], "tiempoDeCoccion": 20 }, { "ingredientes": ["huevos", "leche", "azúcar", "vainilla"], "tiempoDeCoccion": 50 } ];
+postresRapidos = [ { "ingredientes": ["galletitas", "dulceDeLeche", "crema"], "tiempoDeCoccion": 20 }, { "ingredientes": ["huevos", "leche", "azúcar", "vainilla"], "tiempoDeCoccion": 50 } ]
