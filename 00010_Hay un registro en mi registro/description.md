@@ -6,14 +6,14 @@ Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una
 
 ```python
 menuDelDia = {
-  platoPrincipal: "bife de lomo",
-  ensalada: ["papa", "zanahoria", "arvejas"]
-  postre: { ingredientes: ["queso crema", "frambuesas"], tiempoDeCoccion: 80 }
-};
+  "platoPrincipal": "bife de lomo",
+  "ensalada": ["papa", "zanahoria", "arvejas"],
+  "postre": { "ingredientes": ["queso crema", "frambuesas"], "tiempoDeCoccion": 80 }
+}
 ```
 
 > Averiguá qué devuelve el campo `ingredientes` del campo `postre` del registro `menuInfantil`. ¡Está un registro adentro del otro! La sintaxis es la siguiente:
 
 > ```python
-menuInfantil.postre.ingredientes
+menuInfantil["postre"]["ingredientes"]
 ```
