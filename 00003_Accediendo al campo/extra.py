@@ -1,3 +1,3 @@
-let mercurio = { nombre: "Mercurio", temperaturaPromedio: 67, tieneAnillos: false };
-let marte = { nombre: "Marte", temperaturaPromedio: -63, tieneAnillos: false };
-let saturno = { nombre: "Saturno", temperaturaPromedio: -139, tieneAnillos: true };
+mercurio = { nombre: "Mercurio", temperaturaPromedio: 67, tieneAnillos: false };
+marte = { nombre: "Marte", temperaturaPromedio: -63, tieneAnillos: false };
+saturno = { nombre: "Saturno", temperaturaPromedio: -139, tieneAnillos: true };

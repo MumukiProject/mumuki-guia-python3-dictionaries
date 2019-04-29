@@ -5,7 +5,7 @@
 Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una ensalada de lechuga, tomate y zanahoria como acompañamiento y un cheesecake de postre. Como el registro es un poco extenso, y para que sea más legible, lo vamos a escribir de la siguiente forma:
 
 ```javascript
-let menuDelDia = {
+menuDelDia = {
   platoPrincipal: "bife de lomo",
   ensalada: ["papa", "zanahoria", "arvejas"]
   postre: { ingredientes: ["queso crema", "frambuesas"], tiempoDeCoccion: 80 }
