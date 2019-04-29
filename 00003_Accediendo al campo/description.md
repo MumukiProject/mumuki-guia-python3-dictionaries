@@ -2,7 +2,7 @@ Cuando consultaste los registros existentes, se veía algo parecido a lo siguien
 
 ```python
 ム tajMahal
-=> { nombre: "Taj Mahal", locacion: "Agra, India", anioDeConstruccion: 1653 }
+=> { "nombre": "Taj Mahal", "locacion": "Agra, India", "anioDeConstruccion": 1653 }
 ```
 
 Esa consulta era porque estábamos viendo al registro `tajMahal` completo, incluyendo todos sus campos. ¡Pero también se puede consultar por un campo particular! Mirá :eyes::
