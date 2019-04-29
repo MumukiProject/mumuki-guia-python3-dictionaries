@@ -5,15 +5,15 @@
 Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una ensalada de lechuga, tomate y zanahoria como acompañamiento y un cheesecake de postre. Como el registro es un poco extenso, y para que sea más legible, lo vamos a escribir de la siguiente forma:
 
 ```python
-menuDelDia = {
-  "platoPrincipal": "bife de lomo",
+menu_del_dia = {
+  "plato_principal": "bife de lomo",
   "ensalada": ["papa", "zanahoria", "arvejas"],
-  "postre": { "ingredientes": ["queso crema", "frambuesas"], "tiempoDeCoccion": 80 }
+  "postre": { "ingredientes": ["queso crema", "frambuesas"], "tiempo_de_coccion": 80 }
 }
 ```
 
-> Averiguá qué devuelve el campo `ingredientes` del campo `postre` del registro `menuInfantil`. ¡Está un registro adentro del otro! La sintaxis es la siguiente:
+> Averiguá qué devuelve el campo `ingredientes` del campo `postre` del registro `menu_infantil`. ¡Está un registro adentro del otro! La sintaxis es la siguiente:
 
 > ```python
-menuInfantil["postre"]["ingredientes"]
+menu_infantil["postre"]["ingredientes"]
 ```

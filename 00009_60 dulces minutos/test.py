@@ -1,10 +1,10 @@
 
   def test_Un postre de una hora y media no es rápido(self):
-    postreDeLeche = {"ingredientes":["leche"], "tiempoDeCoccion":90}
-    self.assertEqual(len(postresRapidos), 2)
+    postreDeLeche = {"ingredientes":["leche"], "tiempo_de_coccion":90}
+    self.assertEqual(len(postres_rapidos), 2)
   
   def test_Un postre de media hora es rápido(self):
-    postreDeLeche = {"ingredientes":["leche"], "tiempoDeCoccion":30}
-    agregarAPostresRapidos(postreDeLeche)
-    self.assertEqual(len(postresRapidos), 3)
-    self.assertEqual(postresRapidos[-1], postreDeLeche)
+    postreDeLeche = {"ingredientes":["leche"], "tiempo_de_coccion":30}
+    agregar_a_postres_rapidos(postreDeLeche)
+    self.assertEqual(len(postres_rapidos), 3)
+    self.assertEqual(postres_rapidos[-1], postreDeLeche)

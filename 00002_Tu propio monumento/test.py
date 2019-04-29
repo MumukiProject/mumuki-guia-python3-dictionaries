@@ -1,18 +1,18 @@
 
-  def test_torreAzadi_se_llama_Torre_Azadi(self):
-    self.assertEqual(torreAzadi["nombre"].lower(), "torre azadi")
+  def test_torre_azadi_se_llama_Torre_Azadi(self):
+    self.assertEqual(torre_azadi["nombre"].lower(), "torre azadi")
 
-  def test_torreAzadi_es_de_Teherán_Irán(self):
-    self.assertEqual(torreAzadi["locacion"], "Teherán, Irán")
+  def test_torre_azadi_es_de_Teherán_Irán(self):
+    self.assertEqual(torre_azadi["locacion"], "Teherán, Irán")
 
-  def test_torreAzadi_tiene_su_año_de_construcción(self):
-    self.assertEqual(torreAzadi["anioDeConstruccion"], 1971)
+  def test_torre_azadi_tiene_su_año_de_construcción(self):
+    self.assertEqual(torre_azadi["anio_de_construccion"], 1971)
 
-  def test_monumentoNacionalALaBandera_se_llama_Monumento_Nacional_a_la_Bandera(self):
-    self.assertEqual(monumentoNacionalALaBandera["nombre"].lower(), "monumento nacional a la bandera")
+  def test_monumento_nacional_a_la_bandera_se_llama_Monumento_Nacional_a_la_Bandera(self):
+    self.assertEqual(monumento_nacional_a_la_bandera["nombre"].lower(), "monumento nacional a la bandera")
 
-  def test_monumentoNacionalALaBandera_es_de_Rosario_Argentina(self):
-    self.assertEqual(monumentoNacionalALaBandera["locacion"], "Rosario, Argentina")
+  def test_monumento_nacional_a_la_bandera_es_de_Rosario_Argentina(self):
+    self.assertEqual(monumento_nacional_a_la_bandera["locacion"], "Rosario, Argentina")
 
-  def test_monumentoNacionalALaBandera_tiene_su_año_de_construcción(self):
-    self.assertEqual(monumentoNacionalALaBandera["anioDeConstruccion"], 1957)
+  def test_monumento_nacional_a_la_bandera_tiene_su_año_de_construcción(self):
+    self.assertEqual(monumento_nacional_a_la_bandera["anio_de_construccion"], 1957)

@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:torreAzadi
+  inspection: Declares:torre_azadi
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:monumentoNacionalALaBandera
+  inspection: Declares:monumento_nacional_a_la_bandera
