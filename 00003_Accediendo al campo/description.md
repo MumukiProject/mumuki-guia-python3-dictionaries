@@ -8,9 +8,9 @@ Cuando consultaste los registros existentes, se veía algo parecido a lo siguien
 Esa consulta era porque estábamos viendo al registro `tajMahal` completo, incluyendo todos sus campos. ¡Pero también se puede consultar por un campo particular! Mirá :eyes::
 
 ```python
-ム tajMahal.locacion
+ム tajMahal["locacion"]
 => "Agra, India"
-ム tajMahal.anioDeConstruccion
+ム tajMahal["anioDeConstruccion"]
 => 1653
 ```
 
