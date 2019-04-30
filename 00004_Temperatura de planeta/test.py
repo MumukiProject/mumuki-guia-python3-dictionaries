@@ -12,4 +12,4 @@
     self.assertEqual(temperatura_de_planeta(marte), "Marte tiene una temperatura promedio de -63 grados")
 
   def test_temperatura_de_planeta_funciona_para_cualquier_planeta(self):
-    self.assertEqual(temperatura_de_planeta({nombre:"cualquier planeta", temperatura_promedio:999}), "cualquier planeta tiene una temperatura promedio de 999 grados")
+    self.assertEqual(temperatura_de_planeta({"nombre":"cualquier planeta", "temperatura_promedio":999}), "cualquier planeta tiene una temperatura promedio de 999 grados")
