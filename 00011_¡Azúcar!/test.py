@@ -1,5 +1,5 @@
 
-  def test_endulzar_menu_le_agrega_azúcar_al_postre(self):
+  def test_endulzar_menu_le_agrega_azucar_al_postre(self):
     menu = {"plato_principal": "bife de lomo", "ensalada": ["papa", "zanahoria", "arvejas"], "postre": { "ingredientes": ["queso crema", "frambuesas"], "tiempo_de_coccion": 80 }}
     endulzar_menu(menu)
     
