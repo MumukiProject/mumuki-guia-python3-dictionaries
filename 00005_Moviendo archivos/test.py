@@ -9,7 +9,7 @@
     mover_archivo(archivo, "/usr/miarchivo.doc")
     self.assertEqual(archivo["ruta"], "/usr/miarchivo.doc")
 
-  def test_mover_archivo_no_modifica_la_fecha_de_creación_del_archivo(self):
+  def test_mover_archivo_no_modifica_la_fecha_de_creacion_del_archivo(self):
     archivo = {"ruta":"/usr/miarchivo.doc", "creacion":"15/02/2019"}
     mover_archivo(archivo, "/home/miarchivo.doc")
     self.assertEqual(archivo["creacion"], "15/02/2019")
