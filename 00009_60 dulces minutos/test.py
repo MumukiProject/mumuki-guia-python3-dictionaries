@@ -3,8 +3,3 @@
     postre_de_leche = {"ingredientes":["leche"], "tiempo_de_coccion":90}
     self.assertEqual(len(postres_rapidos), 2)
   
-  def test_un_postre_de_media_hora_es_rapido(self):
-    postre_de_leche = {"ingredientes":["leche"], "tiempo_de_coccion":30}
-    agregar_a_postres_rapidos(postre_de_leche)
-    self.assertEqual(len(postres_rapidos), 3)
-    self.assertEqual(postres_rapidos[-1], postre_de_leche)
