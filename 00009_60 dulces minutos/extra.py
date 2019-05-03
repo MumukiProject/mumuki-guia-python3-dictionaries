@@ -1,1 +1,0 @@
-postres_rapidos = [ { "ingredientes": ["galletitas", "dulceDeLeche", "crema"], "tiempo_de_coccion": 20 }, { "ingredientes": ["huevos", "leche", "azúcar", "vainilla"], "tiempo_de_coccion": 50 } ]

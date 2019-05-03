@@ -1,3 +1,6 @@
+  
+  def __init__(self):
+    self.postres_rapidos = [ { "ingredientes": ["galletitas", "dulceDeLeche", "crema"], "tiempo_de_coccion": 20 }, { "ingredientes": ["huevos", "leche", "azúcar", "vainilla"], "tiempo_de_coccion": 50 } ]
 
   def test_un_postre_de_una_hora_y_media_no_es_rapido(self):
     postre_de_leche = {"ingredientes":["leche"], "tiempo_de_coccion":90}
