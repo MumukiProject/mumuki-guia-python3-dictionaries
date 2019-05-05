@@ -1,3 +1,3 @@
 A veces no sólo queremos comer algo rico, sino que queremos comerlo lo antes posible. :smirk: :cake:
 
-> Desarrollá el procedimiento `agregar_a_postres_rapidos`, que recibe un registro por parámetro, y lo agrega a la lista `postres_rapidos` si su tiempo de cocción es de una hora o menos.
+> Desarrollá el procedimiento `agregar_a_postres_rapidos`, que recibe una lista con postres rápidos y un postre por parámetro. Si el tiempo de cocción es de una hora o menos, se agrega el registro a la lista.
