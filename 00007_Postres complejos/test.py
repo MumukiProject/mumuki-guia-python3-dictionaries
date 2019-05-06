@@ -2,7 +2,10 @@
   flan_casero = { "ingredientes": ["huevos", "leche", "azúcar", "vainilla"], "tiempo_de_coccion": 50 }
   cheesecake = { "ingredientes": ["queso crema", "frambuesas"], "tiempo_de_coccion": 80 }
   lemon_pie = { "ingredientes": ["jugo de limón", "almidón de maíz", "leche", "huevos"], "tiempo_de_coccion": 65 }
-
+  
+  def setUp(self):
+    self.hola = 8
+    
   def test_el_flan_casero_es_mas_dificil_de_cocinar_que_el_cheesecake(self):
     self.assertEqual(mas_dificil_de_cocinar(flan_casero, cheesecake), flan_casero)
   
