@@ -1,1 +1,1 @@
-Durante la lección aprendiste cuál es la utilidad de esta estructura de datos llamada registro, cómo acceder a sus campos y modificarlos, y hasta viste que pueden _anidarse_ (es decir, que haya un registro dentro de otro). ¡Felicitaciones! :clap:
+Durante la lección aprendiste cuál es la utilidad de esta estructura de datos llamada diccionario, cómo acceder a sus campos y modificarlos, y hasta viste que pueden _anidarse_ (es decir, que haya un diccionario dentro de otro). ¡Felicitaciones! :clap:
