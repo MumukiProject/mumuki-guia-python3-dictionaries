@@ -1,6 +1,6 @@
-Ahora que agregamos registros de planetas, ¡trabajemos un poco con ellos! :muscle:
+Ahora que agregamos diccionarios de planetas, ¡trabajemos un poco con ellos! :muscle:
 
-> Desarrollá una función `temperatura_de_planeta` que reciba por parámetro un registro de planeta y devuelva un string que indica su nombre y su temperatura promedio. ¡Tiene que funcionar para cualquier planeta! :earth_americas: Por ejemplo:
+> Desarrollá una función `temperatura_de_planeta` que reciba por parámetro un diccionario de planeta y devuelva un string que indica su nombre y su temperatura promedio. ¡Tiene que funcionar para cualquier planeta! :earth_americas: Por ejemplo:
 
 > ```
 ム temperatura_de_planeta(mercurio)

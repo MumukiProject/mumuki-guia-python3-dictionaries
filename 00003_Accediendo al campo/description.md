@@ -1,11 +1,11 @@
-Cuando consultaste los registros existentes, se veía algo parecido a lo siguiente:
+Cuando consultaste los diccionarios existentes, se veía algo parecido a lo siguiente:
 
 ```python
 ム taj_mahal
 => { "nombre": "Taj Mahal", "locacion": "Agra, India", "anio_de_construccion": 1653 }
 ```
 
-Esa consulta era porque estábamos viendo al registro `taj_mahal` completo, incluyendo todos sus campos. ¡Pero también se puede consultar por un campo particular! Mirá :eyes::
+Esa consulta era porque estábamos viendo al diccionario `taj_mahal` completo, incluyendo todos sus campos. ¡Pero también se puede consultar por un campo particular! Mirá :eyes::
 
 ```python
 ム taj_mahal["locacion"]
@@ -14,4 +14,4 @@ Esa consulta era porque estábamos viendo al registro `taj_mahal` completo, incl
 => 1653
 ```
 
-> Declaramos los planetas `mercurio`, `marte` y `saturno` como registros con la siguiente información: `nombre`, `temperatura_promedio` y si `tiene_anillos`. ¡Probalos en la consola!
+> Declaramos los planetas `mercurio`, `marte` y `saturno` como diccionarios con la siguiente información: `nombre`, `temperatura_promedio` y si `tiene_anillos`. ¡Probalos en la consola!

@@ -1,8 +1,8 @@
-¿Te acordás cuando vimos que una lista podía estar compuesta por otras listas? ¡Con los registros aplica la misma idea! :hushed: Si tenemos alguna estructura de datos compleja, puede ocurrir que no alcance con representarla únicamente mediante strings, números, booleanos y listas, sino que necesitemos _otro_ registro dentro.
+¿Te acordás cuando vimos que una lista podía estar compuesta por otras listas? ¡Con los diccionarios aplica la misma idea! :hushed: Si tenemos alguna estructura de datos compleja, puede ocurrir que no alcance con representarla únicamente mediante strings, números, booleanos y listas, sino que necesitemos _otro_ diccionario dentro.
 
-¡No se puede vivir a base de postres! Bueno, quizás sí, pero mantengamos una alimentación saludable :stuck_out_tongue_winking_eye:. Mediante un registro queremos modelar un menú completo: consiste en un plato principal :curry:, los vegetales de la ensalada que acompaña :tomato:, y un postre :custard: como lo veníamos trabajando, es decir, sigue siendo un registro.
+¡No se puede vivir a base de postres! Bueno, quizás sí, pero mantengamos una alimentación saludable :stuck_out_tongue_winking_eye:. Mediante un diccionario queremos modelar un menú completo: consiste en un plato principal :curry:, los vegetales de la ensalada que acompaña :tomato:, y un postre :custard: como lo veníamos trabajando, es decir, sigue siendo un diccionario.
 
-Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una ensalada de lechuga, tomate y zanahoria como acompañamiento y un cheesecake de postre. Como el registro es un poco extenso, y para que sea más legible, lo vamos a escribir de la siguiente forma:
+Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una ensalada de lechuga, tomate y zanahoria como acompañamiento y un cheesecake de postre. Como el diccionario es un poco extenso, y para que sea más legible, lo vamos a escribir de la siguiente forma:
 
 ```python
 menu_del_dia = {
@@ -12,7 +12,7 @@ menu_del_dia = {
 }
 ```
 
-> Averiguá qué devuelve el campo `ingredientes` del campo `postre` del registro `menu_infantil`. ¡Está un registro adentro del otro! La sintaxis es la siguiente:
+> Averiguá qué devuelve el campo `ingredientes` del campo `postre` del diccionario `menu_infantil`. ¡Está un diccionario adentro del otro! La sintaxis es la siguiente:
 
 > ```python
 menu_infantil["postre"]["ingredientes"]
