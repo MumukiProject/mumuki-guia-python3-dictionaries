@@ -8,5 +8,5 @@ Ahora que agregamos diccionarios de planetas, ¡trabajemos un poco con ellos! :m
 ム temperatura_de_planeta(saturno)
 => "Saturno tiene una temperatura promedio de -139 grados"
 ム temperatura_de_planeta(venus)
-=> "Mercurio tiene una temperatura promedio de 462 grados"
+=> "Venus tiene una temperatura promedio de 462 grados"
 ```
