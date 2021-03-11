@@ -9,7 +9,6 @@ teacher_info: ''
 manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  kind: last_query_outputs
-  output: "{'nombre': 'Coliseo', 'locacion': 'Roma, Italia', 'anio_de_construccion':
-    80}\n"
+  kind: last_query_equals
+  value: coliseo
 name: Que ejercicio monumental
