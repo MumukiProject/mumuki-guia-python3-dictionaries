@@ -12,4 +12,4 @@ goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_outputs
   output: '{ "nombre": "Coliseo", "locacion": "Roma, Italia", "anio_de_construccion":
     80 }'
-name: Los primeros diccionarios
+name: Que ejercicio monumental
