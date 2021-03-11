@@ -2,4 +2,4 @@ Los monumentos que probaste en el ejercicio anterior están representados como _
 
 Por ejemplo, podríamos almacenar un libro de modo que cada campo del diccionario fuese alguna característica: su título, su autor, su fecha de publicación, y más. :books:
 
-> ¡Es tu momento del monumento! Guardá en las variables `torre_azadi` y `monumento_nacional_a_la_bandera` diccionarios de esos monumentos, oriundos de las ciudades de `Teherán, Irán` y `Rosario, Argentina` respectivamente. ¿Te animás a investigar en qué año se terminaron de construir para completar ese campo? :satisfied:
+> ¡Es tu momento del monumento! Inicializa las variables `torre_azadi` y `monumento_nacional_a_la_bandera` con diccionarios de esos monumentos, oriundos de las ciudades de `Teherán, Irán` y `Rosario, Argentina` respectivamente. ¿Te animás a investigar en qué año se terminaron de construir para completar ese campo? :satisfied:
