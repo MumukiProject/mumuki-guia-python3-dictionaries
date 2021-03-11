@@ -13,12 +13,12 @@ anio_de_construccion_cristo_redentor = "1931"
 
 Ahí es cuando se dio cuenta que no era conveniente :unamused:: si bien la información entre las variables estaba relacionada, la estaba almacenando por separado. Entonces pensó: ¿no existirá alguna forma de representar las distintas características o propiedades de una misma cosa de forma agrupada? 
 
-> Luego de investigar un poco, encontró una mejor manera para guardar la información de los monumentos. Probá en la consola escribiendo:
+> Luego de investigar un poco, encontró una mejor manera para guardar la información de los monumentos. Podés verla escribiendo en la consola:
 
 > ```python
-estatua_de_la_libertad
-cristo_redentor
-torre_eiffel
-taj_mahal
-coliseo
+ム estatua_de_la_libertad
+ム cristo_redentor
+ム torre_eiffel
+ム taj_mahal
+ム coliseo
 ```

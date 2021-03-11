@@ -3,8 +3,13 @@ locale: es
 tags: []
 layout: input_bottom
 editor: 0
-type: playground
+type: interactive
 extra_visible: false
+teacher_info: ''
 manual_evaluation: false
 choices: []
+goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  kind: last_query_outputs
+  output: '{ "nombre": "Coliseo", "locacion": "Roma, Italia", "anio_de_construccion":
+    80 }'
 name: Los primeros diccionarios
