@@ -6,7 +6,7 @@ Por ejemplo, el siguiente es un menú con bife de lomo como plato principal, una
 
 ```python
 menu_del_dia = {
-  "plato_principal": "bife de lomo",
+  "plato_principal": "milanesas de berenjena",
   "ensalada": ["papa", "zanahoria", "arvejas"],
   "postre": { "ingredientes": ["queso crema", "frambuesas"], "tiempo_de_coccion": 80 }
 }
