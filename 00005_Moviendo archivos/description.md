@@ -21,4 +21,4 @@ Luego el diccionario `leeme` tendrá modificada su ruta:
 => { "ruta": "C:\documentos\leeme.txt", "creacion": "23/09/2004" }
 ```
 
-> ¡Es tu turno! Desarrollá el procedimiento `mover_archivo`, que recibe un diccionario y una nueva ruta y modifica el archivo con la nueva ruta.
+> ¡Es tu turno! Definí el procedimiento `mover_archivo`, que recibe un diccionario y una nueva ruta y modifica el archivo con la nueva ruta.
