@@ -12,8 +12,5 @@ menu_del_dia = {
 }
 ```
 
-> Averiguá qué devuelve el campo `ingredientes` del campo `postre` del diccionario `menu_infantil`. ¡Está un diccionario adentro del otro! La sintaxis es la siguiente:
+> Averiguá los `ingredientes` del `postre` del `menu_infantil`. Es un diccionario dentro de otro, así que vamos a tener que acceder primero al campo `postre` y luego a su campo `ingredientes`. Si no se te ocurre como podés mirar la pista. :mag: 
 
-> ```python
-menu_infantil["postre"]["ingredientes"]
-```
