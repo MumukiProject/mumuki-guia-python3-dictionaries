@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:mas_dificil_de_cocinar
+  inspection: Declares:mas_dificil_de_cocinar
