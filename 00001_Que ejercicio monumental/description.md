@@ -16,21 +16,21 @@ Ahí es cuando se dio cuenta que no era conveniente :unamused:: si bien la infor
 > Luego de investigar un poco, encontró una mejor manera para guardar la información de los monumentos. Podés verla escribiendo en la consola:
 >
 >``` python
-ム estatua_de_la_libertad
+ムestatua_de_la_libertad
 ```
 >
 >``` python
-ム cristo_redentor
+ムcristo_redentor
 ```
 >
 >``` python
-ム torre_eiffel
+ムtorre_eiffel
 ```
 >
 >``` python
-ム taj_mahal
+ムtaj_mahal
 ```
 >
 >``` python
-ム coliseo
+ムcoliseo
 ```
