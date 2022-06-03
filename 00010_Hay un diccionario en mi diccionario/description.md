@@ -12,5 +12,5 @@ menu_del_dia = {
 }
 ```
 
-> Averiguá los `ingredientes` del `postre` del `menu_infantil`. Es un diccionario dentro de otro, así que vamos a tener que acceder primero al campo `postre` y luego a su campo `ingredientes`. Si no se te ocurre como podés mirar la pista. :mag: 
+> Averiguá los `ingredientes` del `postre` del `menu_infantil`. Es un diccionario dentro de otro, así que vamos a tener que acceder primero al campo `postre` y luego a su campo `ingredientes`. Si no se te ocurre cómo, podés mirar la pista. :mag: 
 
