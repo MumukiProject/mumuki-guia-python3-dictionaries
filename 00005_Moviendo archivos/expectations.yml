@@ -5,4 +5,4 @@ expectations:
   inspection: DeclaresProcedure:mover_archivo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: SourceContains:return
+  inspection: DeclaresComputationWithArity1:mover_archivo
