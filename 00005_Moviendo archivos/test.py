@@ -1,4 +1,8 @@
 
+  def test_mover_archivo_no_retorna_nada(self):
+    archivo = {"ruta":"/usr/miarchivo.doc", "creacion":"15/02/2019"}
+    self.assertEqual(None, mover_archivo(archivo, "/home/miarchivo.doc"))
+    
   def test_mover_archivo_le_cambia_la_ruta_a_un_archivo_al_pasar_una_ruta_nueva(self):
     archivo = {"ruta":"/usr/miarchivo.doc", "creacion":"15/02/2019"}
     mover_archivo(archivo, "/home/miarchivo.doc")
