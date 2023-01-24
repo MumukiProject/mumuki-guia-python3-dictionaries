@@ -7,5 +7,5 @@ expectations:
   binding: "*"
   inspection: DeclaresComputationWithArity2:mover_archivo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: mover_archivo
-  inspection: Not:Returns
+  binding: "*"
+  inspection: Not:SourceContains:return
