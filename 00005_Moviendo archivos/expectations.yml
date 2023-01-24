@@ -4,5 +4,5 @@ expectations:
   binding: "*"
   inspection: DeclaresProcedure:mover_archivo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: mover_archivo
-  inspection: Not:Returns
+  binding: "*"
+  inspection: SourceContains:returns
