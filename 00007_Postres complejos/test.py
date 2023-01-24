@@ -16,7 +16,7 @@
 
 
   def test_el_flan_casero_es_mas_dificil_de_cocinar_que_el_cheesecake_extra_dulce(self):
-    self.assertEqual(mas_dificil_de_cocinar(flan_casero, cheesecake_extra_dulce), cheesecake_extra_dulce, "mas_dificil_de_cocinar(flan_casero, cheesecake_extra_dulce) debe devolver flan_casero (porque tiene un ingrediente más que el cheesecake_extra_dulce)")
+    self.assertEqual(mas_dificil_de_cocinar(flan_casero, cheesecake_extra_dulce), flan_casero, "mas_dificil_de_cocinar(flan_casero, cheesecake_extra_dulce) debe devolver flan_casero (porque tiene un ingrediente más que el cheesecake_extra_dulce)")
 
   def test_si_dos_postres_son_igual_de_dificiles_de_cocinar_devuelve_cualquiera_de_los_dos(self):
     mas_dificil = mas_dificil_de_cocinar(flan_casero, lemon_pie)
