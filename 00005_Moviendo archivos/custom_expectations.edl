@@ -1,2 +1,2 @@
 expectation "`mover_archivo` debe asignar la clave `'ruta'`":
-  within `mover_archivo` calls set at;
+  within `mover_archivo` calls set at with (anything, "ruta", anything);
