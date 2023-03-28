@@ -1,0 +1,2 @@
+expectation "`move_file` must assign `'path'` field":
+  within `move_file` calls set at with (anything, "path", anything);

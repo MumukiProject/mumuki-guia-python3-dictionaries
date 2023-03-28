@@ -2,10 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:mover_archivo
+  inspection: Declares:move_file
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity2:mover_archivo
+  inspection: DeclaresComputationWithArity2:move_file
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: mover_archivo
+  binding: move_file
   inspection: Not:Returns
