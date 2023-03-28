@@ -1,3 +1,0 @@
-monumentos_de_america = [ { "nombre": "Monumento Nacional a la Bandera", "locacion": "Rosario, Argentina", "anio_de_construccion": 1957 }, { "nombre": "Estatua de la Libertad", "locacion": "Nueva York, Estados Unidos de América", "anio_de_construccion": 1886 }, { "nombre": "Cristo Redentor", "locacion": "Rio de Janeiro, Brasil", "anio_de_construccion": 1931 } ]
-
-postres_favoritos = [ { "ingredientes": ["galletitas", "dulce de leche", "crema"], "tiempo_de_coccion": 20 }, { "ingredientes": ["huevos", "leche", "azúcar", "vainilla"], "tiempo_de_coccion": 50 }, { "ingredientes": ["queso crema", "frambuesas"], "tiempo_de_coccion": 80 }, { "ingredientes": ["jugo de limón", "almidón de maíz", "leche", "huevos"], "tiempo_de_coccion": 65 } ]

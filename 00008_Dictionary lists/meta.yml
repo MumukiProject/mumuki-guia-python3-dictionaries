@@ -11,5 +11,5 @@ progressive_expectations: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
-  value: postres_favoritos
-name: Listas de diccionarios
+  value: favorite_desserts
+name: Dictionary lists

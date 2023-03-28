@@ -1,0 +1,1 @@
+Just as we work with lists of numbers, booleans, strings or even lists, we can also build lists of dictionaries. You can do everything you did before, such as remove (`list.remove`), find out its length (`len`) or ask for the element at a certain position using brackets `[]`. :star_struck:
