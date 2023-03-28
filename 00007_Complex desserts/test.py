@@ -1,28 +1,28 @@
 
-  def test_el_flan_casero_es_mas_dificil_de_cocinar_que_el_cheesecake(self):
-    self.assertEqual(mas_dificil_de_cocinar(flan_casero, cheesecake), flan_casero, "mas_dificil_de_cocinar(flan_casero, cheesecake) debe devolver flan_casero")
+  def test_flan_is_most_difficult_to_cook_than_cheesecake(self):
+    self.assertEqual(most_difficult_to_cook(flan, cheesecake), flan, "most_difficult_to_cook(flan, cheesecake) should return flan")
 
-  def test_el_flan_casero_es_mas_dificil_de_cocinar_que_el_cheesecake_con_los_argumentos_invertidos(self):
-    self.assertEqual(mas_dificil_de_cocinar(cheesecake, flan_casero), flan_casero, "mas_dificil_de_cocinar(cheesecake, flan_casero) debe devolver flan_casero")
+  def test_flan_is_most_difficult_to_cook_than_cheesecake_with_flipped_arguments(self):
+    self.assertEqual(most_difficult_to_cook(cheesecake, flan), flan, "most_difficult_to_cook(cheesecake, flan) should return flan")
 
-  def test_el_lemon_pie_es_mas_dificil_de_cocinar_que_el_cheesecake(self):
-    self.assertEqual(mas_dificil_de_cocinar(cheesecake, lemon_pie), lemon_pie, "mas_dificil_de_cocinar(cheesecake, lemon_pie) debe devolver lemon_pie")
+  def test_lemon_pie_is_most_difficult_to_cook_than_cheesecake(self):
+    self.assertEqual(most_difficult_to_cook(cheesecake, lemon_pie), lemon_pie, "most_difficult_to_cook(cheesecake, lemon_pie) should return lemon_pie")
 
-  def test_el_lemon_pie_es_mas_dificil_de_cocinar_que_el_cheesecake_con_los_argumentos_invertidos(self):
-    self.assertEqual(mas_dificil_de_cocinar(lemon_pie, cheesecake), lemon_pie, "mas_dificil_de_cocinar(lemon_pie, cheesecake) debe devolver lemon_pie")
+  def test_lemon_pie_is_most_difficult_to_cook_than_cheesecake_with_flipped_arguments(self):
+    self.assertEqual(most_difficult_to_cook(lemon_pie, cheesecake), lemon_pie, "most_difficult_to_cook(lemon_pie, cheesecake) should return lemon_pie")
 
-  def test_el_cheesecake_extra_dulce_es_mas_dificil_de_cocinar_que_el_cheesecake(self):
-    self.assertEqual(mas_dificil_de_cocinar(cheesecake, cheesecake_extra_dulce), cheesecake_extra_dulce, "mas_dificil_de_cocinar(cheesecake, cheesecake_extra_dulce) debe devolver cheesecake_extra_dulce (porque tiene un ingrediente más que el cheesecake)")
+  def test_cheesecake_extra_dulce_is_most_difficult_to_cook_than_cheesecake(self):
+    self.assertEqual(most_difficult_to_cook(cheesecake, cheesecake_extra_dulce), cheesecake_extra_dulce, "most_difficult_to_cook(cheesecake, cheesecake_extra_dulce) should return cheesecake_extra_dulce (because it has one ingredient more than cheesecake)")
 
-  def test_el_cheesecake_extra_dulce_es_mas_dificil_de_cocinar_que_el_cheesecake_con_los_argumentos_invertidos(self):
-    self.assertEqual(mas_dificil_de_cocinar(cheesecake_extra_dulce, cheesecake), cheesecake_extra_dulce, "mas_dificil_de_cocinar(cheesecake_extra_dulce, cheesecake) debe devolver cheesecake_extra_dulce (porque tiene un ingrediente más que el cheesecake)")
+  def test_cheesecake_extra_dulce_is_most_difficult_to_cook_than_cheesecake_with_flipped_arguments(self):
+    self.assertEqual(most_difficult_to_cook(cheesecake_extra_dulce, cheesecake), cheesecake_extra_dulce, "most_difficult_to_cook(cheesecake_extra_dulce, cheesecake) should return cheesecake_extra_dulce (because it has one ingredient more than cheesecake)")
 
-  def test_el_flan_casero_es_mas_dificil_de_cocinar_que_el_cheesecake_extra_dulce(self):
-    self.assertEqual(mas_dificil_de_cocinar(flan_casero, cheesecake_extra_dulce), flan_casero, "mas_dificil_de_cocinar(flan_casero, cheesecake_extra_dulce) debe devolver flan_casero (porque tiene un ingrediente más que el cheesecake_extra_dulce)")
+  def test_flan_is_most_difficult_to_cook_than_cheesecake_extra_dulce(self):
+    self.assertEqual(most_difficult_to_cook(flan, cheesecake_extra_dulce), flan, "most_difficult_to_cook(flan, cheesecake_extra_dulce) should return flan (because it has one ingredient more than cheesecake_extra_dulce)")
 
-  def test_el_flan_casero_es_mas_dificil_de_cocinar_que_el_cheesecake_extra_dulce_con_los_argumentos_invertidos(self):
-    self.assertEqual(mas_dificil_de_cocinar(cheesecake_extra_dulce, flan_casero), flan_casero, "mas_dificil_de_cocinar(cheesecake_extra_dulce, flan_casero) debe devolver flan_casero (porque tiene un ingrediente más que el cheesecake_extra_dulce)")
+  def test_flan_is_most_difficult_to_cook_than_cheesecake_extra_dulce_with_flipped_arguments(self):
+    self.assertEqual(most_difficult_to_cook(cheesecake_extra_dulce, flan), flan, "most_difficult_to_cook(cheesecake_extra_dulce, flan) should return flan (because it has one ingredient more than cheesecake_extra_dulce)")
 
-  def test_si_dos_postres_son_igual_de_dificiles_de_cocinar_devuelve_cualquiera_de_los_dos(self):
-    mas_dificil = mas_dificil_de_cocinar(flan_casero, lemon_pie)
-    self.assertTrue(mas_dificil == flan_casero or mas_dificil == lemon_pie)
+  def test_if_two_desserts_are_equals_in_difficult_to_cook_return_anyone_of_both(self):
+    more_difficult = most_difficult_to_cook(flan, lemon_pie)
+    self.assertTrue(more_difficult == flan or more_difficult == lemon_pie)
