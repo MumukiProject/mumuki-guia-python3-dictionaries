@@ -1,3 +1,3 @@
-Muchas veces, cuando representamos cosas de la vida real en nuestros programas, necesitamos poder agrupar múltiples características de esas cosas de alguna forma.
+:package: When we represent real life things in our programs, we often need to bundle multiple features of those things together in some way.
 
-Te presentamos una estructura que nos va a ayudar en esa tarea: los diccionarios. :grin:
+We present a structure that will help us in this task: dictionaries. :grin:

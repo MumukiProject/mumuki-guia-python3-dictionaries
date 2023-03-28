@@ -1,1 +1,1 @@
-Durante la lección aprendiste cuál es la utilidad de esta estructura de datos llamada diccionario, cómo acceder a sus campos y modificarlos, y hasta viste que pueden _anidarse_ (es decir, que haya un diccionario dentro de otro). ¡Felicitaciones! :clap:
+In this lesson we learned what dictionaries are, when we need them, how to access and modify their fields, and that they can even be _nested_ (that is, that there is a `dict` inside another). Congratulations! :clap:
