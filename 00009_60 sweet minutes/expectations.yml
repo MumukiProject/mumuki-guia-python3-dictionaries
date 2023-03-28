@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresProcedure:agregar_a_postres_rapidos
+  inspection: DeclaresProcedure:add_fast_dessert
