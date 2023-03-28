@@ -26,7 +26,7 @@ def adjust_temperature(planet, adjustment):
 >
 > ```python
 > ムreadme
-> { "path": "C:\readme.txt", "creation": "09/23/2004" }
+> { "path": "C:\readme.txt", "creation": "2004-09-23" }
 > ```
 >
 > We want to be able to change its `path` as follows:
@@ -34,7 +34,7 @@ def adjust_temperature(planet, adjustment):
 > ```python
 > ムmove_file(readme, "C:\documents\readme.txt")
 > ムreadme
-> { "path": "C:\documents\readme.txt", "creation": "09/23/2004" } # the readme's path has been modified
+> { "path": "C:\documents\readme.txt", "creation": "2004-09-23" } # the readme's path has been modified
 > ```
 >
 > Define the procedure `move_file`, which receives a `dict` and a new path and alters the `dict`'s `path`.
