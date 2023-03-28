@@ -11,5 +11,5 @@ progressive_expectations: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
-  value: coliseo
-name: Que ejercicio monumental
+  value: colosseum
+name: What a monumental exercise
