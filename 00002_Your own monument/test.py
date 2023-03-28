@@ -15,4 +15,5 @@
     self.assertEqual(national_flag_memorial["location"], "Rosario, Argentina")
 
   def test_national_flag_memorial_has_year_of_construction(self):
-  self.assertEqual(national_flag_memorial["year_of_construction"], 1957)
+self.assertEqual(national_flag_memorial["year_of_construction"], 1957)
+
