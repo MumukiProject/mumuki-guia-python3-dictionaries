@@ -1,2 +1,2 @@
-def anio(anio):
-  return int(anio[-4:])
+def year(year):
+  return int(year[:4])
