@@ -1,0 +1,2 @@
+expectation "`is_from_past_millennium` must query `'creation_date'` field":
+  within `is_from_past_millennium` calls get at with (anything, "creation_date");
