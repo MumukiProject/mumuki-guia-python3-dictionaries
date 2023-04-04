@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - Throws no type errors
+  then: "a `TypeError` was thrown. That means that concatenation of strings is failing!
+    \U0001F4A5 Don't forget to use `str` function before concatenating the `average_temperature`."
