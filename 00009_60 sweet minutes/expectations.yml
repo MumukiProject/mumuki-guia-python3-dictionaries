@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity2:add_fast_dessert
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: add_fast_dessert
+  inspection: Not:Returns
