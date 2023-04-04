@@ -1,3 +1,4 @@
+class Test(unittest.TestCase):
 
   def test_azadi_tower_is_called_Torre_Azadi(self):
     self.assertEqual(azadi_tower["name"].lower(), "azadi tower")
@@ -15,5 +16,5 @@
     self.assertEqual(national_flag_memorial["location"], "Rosario, Argentina")
 
   def test_national_flag_memorial_has_year_of_construction(self):
-self.assertEqual(national_flag_memorial["year_of_construction"], 1957)
+    self.assertEqual(national_flag_memorial["year_of_construction"], 1957)
 
