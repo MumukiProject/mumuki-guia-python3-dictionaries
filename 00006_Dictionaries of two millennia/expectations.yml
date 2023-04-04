@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: is_from_past_millennium
   inspection: Calls:year
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_from_past_millennium
+  inspection: Not:UsesIf
