@@ -15,4 +15,4 @@ That query was useful because we were inspecting the entire `taj_mahal` dictiona
 ```
 
 > We initialized the planets `mercury`, `mars` and `saturn` as dictionaries with the fields `name`, `average_temperature` and if `has_rings`.
-> Check their individual fields in the console and when you're done type `done()`.
+> Check their individual fields in the console - i.e. `saturn["has_rings"]` - and when you're done type `done()`.
