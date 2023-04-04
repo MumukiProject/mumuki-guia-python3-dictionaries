@@ -2,4 +2,6 @@
 
 For example, we could represent a book as a dictionary, so that each field corresponds to an aspect of it: its title, its author, its publication date, and so on. :books:
 
-> It's your monument time! Initialize the variables `azadi_tower` and `national_flag_memorial` with dictionaries for those monuments, native to the cities of `Tehran, Iran` and `Rosario, Argentina` respectively. You'll may need to do a quick research to figure out when they were finished :satisfied:
+> It's your monument time! Initialize the variables `azadi_tower` and `national_flag_memorial` with dictionaries for those monuments, native to the cities of `Tehran, Iran` and `Rosario, Argentina` respectively. 
+>
+> :mag_right: You'll may need to do a quick research in the Internet to figure out when they were finished :satisfied:
