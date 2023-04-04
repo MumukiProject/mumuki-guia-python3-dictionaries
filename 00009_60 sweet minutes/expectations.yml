@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: add_fast_dessert
   inspection: Not:Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: add_fast_dessert
+  inspection: UsesIf
