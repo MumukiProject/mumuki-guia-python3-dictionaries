@@ -12,7 +12,7 @@ def adjust_temperature(planet, adjustment):
 	planet["average_temperature"] += adjustment
 ```
 
-…and then invoked with `dict`s as usual:
+...and then invoked with `dict`s as usual:
 
 ```python
 ムsaturn["average_temperature"]
@@ -22,7 +22,7 @@ def adjust_temperature(planet, adjustment):
 -139
 ```
 
-> It's your turn! Let's suppose we have a dictionary that represents a file, of which we know its path (where it is saved) and its creation date:
+> :page_facing_up: It's your turn! Let's suppose we have a dictionary that represents a file, of which we know its path (where it is saved) and its creation date:
 >
 > ```python
 > ムreadme
