@@ -1,5 +1,5 @@
 
-  def test_planet_temperature_works_for_Mercurio(self):
+  def test_planet_temperature_works_for_Mercury(self):
     self.assertEqual(planet_temperature(mercury), "Mercury has an average temperature of 67 degrees")
 
   def test_planet_temperature_works_for_Saturn(self):
@@ -11,5 +11,5 @@
   def test_planet_temperature_works_for_Mars(self):
     self.assertEqual(planet_temperature(mars), "Mars has an average temperature of -63 degrees")
 
-  def test_planet_temperature_works_for_cualquier_planeta(self):
+  def test_planet_temperature_works_for_any_planet(self):
     self.assertEqual(planet_temperature({"name": "Earth", "average_temperature": 25}), "Earth has an average temperature of 25 degrees")
