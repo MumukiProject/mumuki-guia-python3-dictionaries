@@ -1,7 +1,7 @@
 When you queried the existing dictionaries, it looked something like the following:
 
 ```python
-ムthat_mahal
+ムtaj_mahal
 { "name": "Taj Mahal", "location": "Agra, India", "year_of_construction": 1653 }
 ```
 
