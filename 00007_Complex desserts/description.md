@@ -1,4 +1,4 @@
-A few exercises earlier, we explained to you the difference between lists and dictionaries. 🎛️ But that doesn't mean we can't use both data structures at the same time! :wink:
+A few exercises earlier, we learned about the difference between lists and dictionaries. 🎛️ But that doesn't mean we can't use both data structures at the same time! :wink:
 
 For example, a list can be a field of a dictionary. 🍮 Take a look at these dessert dictionaries! We know how many minutes of cooking time they take and what ingredients they contain:
 
