@@ -2,7 +2,7 @@ Now that we've added planet dictionaries, let's do a little work with them! :mus
 
 > Define a function `planet_temperature` that receives a planet dictionary as argument and returns a string indicating its name and its average temperature. It has to work for any planet! :earth_americas: For example:
 
-> ```
+> ```python
 ムplanet_temperature(mercury)
 "Mercury has an average temperature of 67 degrees"
 ムplanet_temperature(saturn)
