@@ -1,4 +1,4 @@
-Good search skills! :mag_left: :wink:
+Good search skills! :mag: :wink:
 
 Dictionaries, just like lists, are a _data structure_ because they allow us to organize information. But what's the difference between a dictionary and a list? :thinking:
 
