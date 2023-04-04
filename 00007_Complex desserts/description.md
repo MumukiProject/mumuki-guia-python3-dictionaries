@@ -12,6 +12,6 @@ lemon_pie = { "ingredients": ["lemon juice", "cornstarch", "milk", "eggs"], "coo
 > Define the function `most_difficult_to_cook`, which receives two dessert dictionaries as argument and returns the one with more ingredients of the two:
 
 > ```python
-ムmost_difficult_to_cook (flan, cheesecake)
+ムmost_difficult_to_cook(flan, cheesecake)
 { "ingredients": ["eggs", "milk", "sugar", "vanilla"], "cook_time": 50 }
 ```
