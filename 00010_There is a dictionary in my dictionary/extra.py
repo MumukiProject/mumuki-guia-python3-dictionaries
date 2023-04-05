@@ -7,5 +7,5 @@ daily_menu = {
 kids_menu = {
   "main_course": "pizza",
   "salad": ["lettuce", "tomatoe", "carrot"],
-  "postre": { "ingredients": ["cookies", "cream"], "cook_time": 20 }
+  "dessert": { "ingredients": ["cookies", "cream"], "cook_time": 20 }
 }
