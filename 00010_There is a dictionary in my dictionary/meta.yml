@@ -11,5 +11,5 @@ progressive_expectations: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_outputs
-  output: '["cream cheese", "raspberries"]'
+  output: '["cookies", "cream"]'
 name: There is a dictionary in my dictionary
