@@ -1,2 +1,2 @@
-expectation "`most_difficult_to_cook` must read `'ingredients'` field":
+expectation "`most_difficult_to_cook` must query `'ingredients'` field":
   within `most_difficult_to_cook` calls get at with (anything, "ingredients");
