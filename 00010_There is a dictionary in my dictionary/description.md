@@ -2,7 +2,7 @@ Remember we learned that a list can be composed of other lists? The same is true
 
 You can't live on desserts! Well, maybe yes, but let's stick to a healthy diet :stuck_out_tongue_winking_eye:. Using a dictionary, we want to model a complete menu: it consists of a main course :curry:, the vegetables from the salad that accompanies it :tomato:, and a dessert :custard: as we have been working on, that is, it is still a dictionary.
 
-For example, below you'll find a menu with a strip steak as the main course, a salad with tomatoes, lettuce and carrots on the side, and a cheesecake for dessert. Since the dictionary is a bit long, and to make it more readable, we'll write it as follows:
+For example, below you'll find a menu with aubergine parmigiana :eggplant: as the main course, a potato salad :potato:, and a cheesecake for dessert. Since the dictionary is a bit long, and to make it more readable, we'll format it as follows:
 
 ```python
 daily_menu = {
