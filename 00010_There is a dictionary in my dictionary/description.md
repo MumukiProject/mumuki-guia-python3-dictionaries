@@ -6,7 +6,7 @@ For example, below you'll find a menu with aubergine parmigiana :eggplant: as th
 
 ```python
 daily_menu = {
-  "main_dish": "aubergine parmigiana",
+  "main_course": "aubergine parmigiana",
   "salad": ["potato", "carrot", "peas"],
   "dessert": { "ingredients": ["cream cheese", "raspberries"], "cook_time": 80 }
 }
